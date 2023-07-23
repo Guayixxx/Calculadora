@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <main>
+        <div class="calculadora">
+            <div id="screen" class="screen">
+
+            </div>
+            <br/>
+            <div>
+                <button onclick="limpiar()" class="symbols2">C</button>
+                <button onclick="del()" class="symbols2">←</button>
+                <button onclick="porcentaje()" class="symbols2">%</button>
+                <button onclick="div()" class="symbols">÷</button>
+            </div>
+            <div>
+                <button onclick="siete()" class="calc">7</button>
+                <button onclick="ocho()" class="calc">8</button>
+                <button onclick="nueve()" class="calc">9</button>
+                <button onclick="mult()" class="symbols">×</button>
+            </div>
+            <div>
+                <button onclick="cuatro()" class="calc">4</button>
+                <button onclick="cinco()" class="calc">5</button>
+                <button onclick="seis()" class="calc">6</button>
+                <button onclick="menos()" class="symbols">−</button>
+            </div>
+            <div>
+                <button onclick="uno()" class="calc">1</button>
+                <button onclick="dos()" class="calc">2</button>
+                <button onclick="tres()" class="calc">3</button>
+                <button onclick="mas()" class="symbols">+</button>
+            </div>
+            <div>
+                <button onclick="cero()" class="calc">0</button>
+                <button class="calc" onclick="punto()">.</button>
+                <button onclick="equal()" class="equal">=</button>
+            </div>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>
